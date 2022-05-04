@@ -1,0 +1,9 @@
+@import "./assets/styles/custom.scss";
+@import "./assets/styles/vars.scss";
+@import "./assets/styles/global-styles.scss";
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "react-toastify/dist/ReactToastify.css";
+.app-body {
+  background-color: transparent;
+  min-height: 100vh;
+}

@@ -1,0 +1,14 @@
+@import "../../assets/styles/vars.scss";
+
+.marketing-summary {
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.5px;
+  color: $label;
+  span {
+    color: $text;
+    font-weight: 600;
+  }
+}

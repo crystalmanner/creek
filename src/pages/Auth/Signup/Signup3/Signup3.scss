@@ -1,0 +1,65 @@
+@import "../Signup.scss";
+
+.signature-label {
+  position: relative;
+
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .clear {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.signature-box {
+  margin-top: 5px;
+  max-width: 400px;
+  height: 100px;
+  border: 2px dashed rgba(19, 22, 36, 0.6);
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #131624;
+  }
+  .agree-item {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-left: 5px;
+    font-weight: 600;
+    color: #366ee7;
+    text-decoration: none;
+  }
+}
+.close-btn {
+  position: absolute;
+  right: -32px;
+  top: -32px;
+  z-index: 100;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  &:hover {
+    opacity: 1;
+  }
+}
+.agree-btn {
+  position: absolute;
+  left: 50%;
+  bottom: -80px;
+  transform: translate(-50%, 0);
+  z-index: 100;
+  width: 320px;
+}

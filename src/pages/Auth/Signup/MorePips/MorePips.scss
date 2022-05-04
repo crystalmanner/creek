@@ -1,0 +1,26 @@
+.more-pips {
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  right: 0;
+  .pip-array {
+    display: flex;
+    justify-content: center;
+    .pip {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-left: 8px;
+      background-color: rgba(19, 22, 36, 0.6);
+      :first-of-type {
+        margin-left: 0px;
+      }
+      &.pip-completed {
+        background-color: #b0c0e0;
+      }
+      &.current {
+        background-color: #366ee7;
+      }
+    }
+  }
+}

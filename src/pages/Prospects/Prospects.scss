@@ -1,0 +1,69 @@
+@import "../../assets/styles/vars.scss";
+
+.search-input {
+  min-width: 320px;
+  margin-right: 20px;
+}
+.filter-option {
+  min-width: 180px;
+  .css-1970lo8-control {
+    height: 40px;
+  }
+}
+.more-menu-btn {
+  button {
+    &::after {
+      content: unset;
+    }
+  }
+  .dropdown-item {
+    color: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    height: 50px;
+    letter-spacing: 0.5px;
+    color: #131624;
+    .item-icon {
+      margin-right: 19px;
+      width: 22px;
+    }
+  }
+}
+
+.selected {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: rgba(19, 22, 36, 0.6);
+}
+.showing {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(19, 22, 36, 0.6);
+  span {
+    font-weight: 600;
+    color: #131624;
+    margin: 0 5px;
+  }
+}
+.contact-info {
+  width: 100px;
+  display: flex;
+  .link {
+    cursor: pointer;
+  }
+}
+
+.add-prospects-btn {
+  .dropdown-menu.show {
+    transform: translate(0, 48px) !important;
+  }
+}
+
+tr.clickable {
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
